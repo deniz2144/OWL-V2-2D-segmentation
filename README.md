@@ -20,6 +20,8 @@ This integration allows you to input an image along with **candidate labels** (c
 ## 💻 How to Run
 
 <img width="1911" height="878" alt="image" src="https://github.com/user-attachments/assets/e1d7fe37-60d4-4109-b48f-7b6582d78fca" />
+
+
 ### Locally
 
 1. Clone the repository:
