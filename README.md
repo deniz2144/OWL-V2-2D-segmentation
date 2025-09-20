@@ -26,3 +26,7 @@ This integration allows you to input an image along with **candidate labels** (c
 ```bash
 git clone https://github.com/yourusername/OWLSAM-Colab.git
 cd OWLSAM-Colab
+
+
+
+<img width="1914" height="872" alt="image" src="https://github.com/user-attachments/assets/e2f08051-06a0-4e29-bc80-b10a5b88bc65" />
