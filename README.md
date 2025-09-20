@@ -1,17 +1,28 @@
+# OWLSAM: Zero-Shot Object Detection + 2D Segmentation
 
-# OWLSAM 
+**OWLSAM** combines state-of-the-art models for object detection and segmentation:
 
-This project integrates:
+- **OWL-V2**: Zero-shot object detection — detect objects without retraining for specific labels.
+- **SAM (Segment Anything Model)**: High-quality 2D mask generation for detected objects.
 
-- **OWL-V2**: Zero-shot object detection
-- **SAM (Segment Anything Model)**: 2D mask generation
+This integration allows you to input an image along with **candidate labels** (comma-separated) and get **pixel-accurate masks** for the detected objects.
 
-You can input an image and candidate labels (comma-separated) to detect objects and get their masks.
+---
 
-## How to Run
+## 🚀 Features
 
-1. Install requirements: `pip install -r requirements.txt`
-2. Run `app.py` or the Colab cell
-3. Open the provided Gradio link (with `share=True`) to use the demo
+- Zero-shot detection: No need to train for custom objects.
+- Pixel-perfect segmentation masks with SAM.
+- Simple interface via Gradio (web-based or Colab).
 
+---
 
+## 💻 How to Run
+
+### Locally
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/OWLSAM-Colab.git
+cd OWLSAM-Colab
