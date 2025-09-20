@@ -29,6 +29,8 @@ This integration allows you to input an image along with **candidate labels** (c
 ```bash
 git clone https://github.com/yourusername/OWLSAM-Colab.git
 cd OWLSAM-Colab
+pip install r-requirements.txt
+python app.py
 
 
 
