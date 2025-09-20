@@ -1,5 +1,5 @@
-readme = """
-# OWLSAM Colab Demo
+
+# OWLSAM 
 
 This project integrates:
 
